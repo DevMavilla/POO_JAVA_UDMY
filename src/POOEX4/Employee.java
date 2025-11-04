@@ -1,4 +1,4 @@
-package entities;
+package POOEX4;
 
 public class Employee {
     public String name;
