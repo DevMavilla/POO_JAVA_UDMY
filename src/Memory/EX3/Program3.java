@@ -1,7 +1,5 @@
 package Memory.EX3;
-
 import Memory.EX3.entities.People;
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -10,7 +8,7 @@ public class Program3 {
             Locale.setDefault(Locale.US);
             Scanner sc = new Scanner(System.in);
 
-        System.out.print("Quantas pessoas serão digitadas ");
+            System.out.print("Quantas pessoas serão digitadas ");
             int n = sc.nextInt();
             People[] people = new People[n];
 
@@ -42,7 +40,6 @@ public class Program3 {
                 System.out.println(people[i].getName());
             }
         }
-
         sc.close();
     }
 }
