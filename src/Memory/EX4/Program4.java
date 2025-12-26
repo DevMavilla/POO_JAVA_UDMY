@@ -12,7 +12,6 @@ public class Program4 {
         int n = sc.nextInt();
 
         int vet[] = new int[n];
-        
 
         for (int i = 0; i < n; i++) {
             System.out.println("Digite um número: ");
@@ -23,10 +22,10 @@ public class Program4 {
         for (int i = 0; i < n; i++) {
             if (vet[i] < 0){
                 System.out.println(vet[i]);
-
             }
-
         }
+
+        int pares;
 
         sc.close();
     }

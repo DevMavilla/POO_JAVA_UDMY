@@ -35,8 +35,6 @@ public class Program5 {
         System.out.printf("\nSoma = %.2f%n" , soma);
         System.out.printf("Média = %.2f%n" ,media);
 
-
-
         sc.close();
     }
 }
