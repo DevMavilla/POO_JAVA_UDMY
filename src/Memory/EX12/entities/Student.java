@@ -11,20 +11,7 @@ public class Student {
         this.secondNote = secondNote;
     }
 
-    public double average() {
-        return (firtNote + secondNote) / 2.0;
-    }
 
-    public static String averageClass(Student[] students) {
-        double sum = 0.0;
-
-        for (Student s : students) {
-            sum += s.average();
-        }
-
-        double media = sum  / students.length;
-        return String.format("Class average: %.2f", media);
-    }
 
     public String getName() {
         return name;
@@ -48,6 +35,21 @@ public class Student {
 
     public void setSecondNote(double secondNote) {
         this.secondNote = secondNote;
+    }
+
+    public double average() {
+        return (firtNote + secondNote) / 2.0;
+    }
+
+    public static String averageClass(Student[] students) {
+        double sum = 0.0;
+
+        for (Student s : students) {
+            sum += s.average();
+        }
+
+        double media = sum  / students.length;
+        return String.format("Class average: %.2f", media);
     }
 
 
