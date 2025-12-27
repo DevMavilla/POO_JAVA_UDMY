@@ -9,6 +9,7 @@ public class Program10 {
         Scanner sc = new Scanner(System.in);
 
         int n, somaPares = 0, nPares = 0;
+
         double avgPares;
 
         System.out.print("Quantos elementos vai ter o vetor? ");
