@@ -1,6 +1,6 @@
-package POO.Memory.EMEX1.EX3;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.EMEX1.EX3;
 
-import POO.Memory.EMEX1.EX3.entities.Account;
+import POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.EMEX1.EX3.entities.Account;
 
 import java.util.Locale;
 import java.util.Scanner;

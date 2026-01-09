@@ -1,5 +1,5 @@
-package POO.Memory.EMEX1.EX2;
-import POO.Memory.EMEX1.EX2.util2.CurrencyConverter;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.EMEX1.EX2;
+import POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.EMEX1.EX2.util2.CurrencyConverter;
 import java.util.Locale;
 import java.util.Scanner;
 

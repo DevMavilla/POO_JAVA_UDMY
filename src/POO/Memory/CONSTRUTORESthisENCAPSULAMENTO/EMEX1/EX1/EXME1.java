@@ -1,5 +1,5 @@
-package POO.Memory.EMEX1.EX1;
-import POO.Memory.EMEX1.EX1.util.Calculator;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.EMEX1.EX1;
+import POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.EMEX1.EX1.util.Calculator;
 
 import java.util.Locale;
 import java.util.Scanner;

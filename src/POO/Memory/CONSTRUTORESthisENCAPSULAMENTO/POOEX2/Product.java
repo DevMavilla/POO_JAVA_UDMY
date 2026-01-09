@@ -1,4 +1,4 @@
-package POO.Memory.POOEX2;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.POOEX2;
 
 public class Product {
     public String name;

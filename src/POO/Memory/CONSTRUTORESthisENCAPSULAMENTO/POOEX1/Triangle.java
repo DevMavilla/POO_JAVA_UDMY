@@ -1,4 +1,4 @@
-package POO.Memory.POOEX1;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.POOEX1;
 
 public class Triangle { //Classe Triângulo
     public double a; // atributos

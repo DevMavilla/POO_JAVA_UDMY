@@ -1,4 +1,4 @@
-package POO.Memory.POOEX5;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.POOEX5;
 
 import java.util.Locale;
 import java.util.Scanner;

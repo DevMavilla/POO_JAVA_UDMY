@@ -1,4 +1,4 @@
-package POO.Memory.POOEX3;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.POOEX3;
 
 public class Rectangle {
     public double width;

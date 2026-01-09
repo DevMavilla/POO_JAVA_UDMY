@@ -1,4 +1,4 @@
-package POO.Memory.EMEX1.EX2.util2;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.EMEX1.EX2.util2;
 
 public class CurrencyConverter {
     public double dollarPrice;

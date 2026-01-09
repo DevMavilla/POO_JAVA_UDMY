@@ -1,4 +1,4 @@
-package POO.Memory.EMEX1.EX3.entities;
+package POO.Memory.CONSTRUTORESthisENCAPSULAMENTO.EMEX1.EX3.entities;
 
 public class Account {
     private int numberAccount;
