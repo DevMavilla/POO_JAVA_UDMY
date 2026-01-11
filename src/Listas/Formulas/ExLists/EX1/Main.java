@@ -29,7 +29,7 @@ public class Main {
 
             System.out.print("Salary: ");
             Double salary = sc.nextDouble();
-
+            //tipo
             Employee emp = new Employee(name, id, salary);
             employees.add(emp);
         }
@@ -51,10 +51,7 @@ public class Main {
         System.out.println("List of employees:");
 
         for (Employee e : employees) {
-            System.out.printf("%d, %s, %.2f%n",
-                    e.getId(),
-                    e.getName(),
-                    e.getSalary());
+            System.out.printf("%d, %s, %.2f%n", e.getId(), e.getName(), e.getSalary());
         }
 
         sc.close();

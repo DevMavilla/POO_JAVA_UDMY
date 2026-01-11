@@ -28,9 +28,7 @@ public class Employee {
         return salary;
     }
 
-    public void setSalary(Double salary) {
-        this.salary = salary;
-    }
+
 
     public Integer getId() {
         return id;
