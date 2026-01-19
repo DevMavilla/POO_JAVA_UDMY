@@ -19,7 +19,7 @@ public class Program {
         //Downcasting
 
        // BusinessAccount acc4 =  (BusinessAccount) acc2;
-        // acc4.loan(100.0);
+        //  acc4.loan(100.0);
 
        // BusinessAccount acc5 = (BusinessAccount) acc3;
         /* if(acc3 instanceof BusinessAccount){
