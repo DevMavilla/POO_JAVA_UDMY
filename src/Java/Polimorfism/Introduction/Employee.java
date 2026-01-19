@@ -11,6 +11,7 @@ public class Employee {
     }
 
     public Employee(String name, Integer hour, Double valuePerHOur) {
+        super();
         this.name = name;
         this.hour = hour;
         this.valuePerHOur = valuePerHOur;

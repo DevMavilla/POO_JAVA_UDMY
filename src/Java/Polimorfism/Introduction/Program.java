@@ -1,4 +1,4 @@
-package Java.Polimorfism;
+package Java.Polimorfism.Introduction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ public class Program {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        List<Employee>list = new ArrayList<>();
+        List<OutSourcedEmployee.Employee>list = new ArrayList<>();
 
         System.out.println("Enter the number of employess:");
         int n = sc.nextInt();
@@ -35,12 +35,12 @@ public class Program {
                 double additionalCharge = sc.nextDouble();
                 list.add(new OutSourcedEmployee(name, hours, valuePerHour, additionalCharge));
             }else {
-                list.add(new Employee(name, hours, valuePerHour));
+                list.add(new OutSourcedEmployee.Employee(name, hours, valuePerHour));
             }
         }
         System.out.println();
         System.out.println("PAYMENTS:");
-        for (Employee e: list){
+        for (OutSourcedEmployee.Employee e: list){
             System.out.println(e.getName() + " - $ " + String.format("%.2f", e.payment()));
         }
 
