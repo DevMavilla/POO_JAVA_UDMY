@@ -1,10 +1,9 @@
-package Java.AbstractMethods.application;
+package Java.Abstract.AbstractMethods.application;
 
-import Java.AbstractMethods.entities.Circle;
-import Java.AbstractMethods.entities.Rectangle;
-import Java.AbstractMethods.entities.Shape;
-import Java.AbstractMethods.entities.enums.Color;
-import Java.Polimorfism.FinalTest.entities.Product;
+import Java.Abstract.AbstractMethods.entities.Circle;
+import Java.Abstract.AbstractMethods.entities.Rectangle;
+import Java.Abstract.AbstractMethods.entities.Shape;
+import Java.Abstract.AbstractMethods.entities.enums.Color;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package Java.AbstractMethods.entities;
+package Java.Abstract.AbstractMethods.entities;
 
-import Java.AbstractMethods.entities.enums.Color;
+import Java.Abstract.AbstractMethods.entities.enums.Color;
 
 public class Rectangle extends Shape{
     private Double width;

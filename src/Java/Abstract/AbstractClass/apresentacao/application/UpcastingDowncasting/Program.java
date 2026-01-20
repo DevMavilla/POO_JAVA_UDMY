@@ -1,8 +1,8 @@
-package Java.AbstractClass.apresentacao.application.UpcastingDowncasting;
+package Java.Abstract.AbstractClass.apresentacao.application.UpcastingDowncasting;
 
-import Java.AbstractClass.apresentacao.entities.Account;
-import Java.AbstractClass.apresentacao.entities.BusinessAccount;
-import Java.AbstractClass.apresentacao.entities.SavingsAccount;
+import Java.Abstract.AbstractClass.apresentacao.entities.Account;
+import Java.Abstract.AbstractClass.apresentacao.entities.BusinessAccount;
+import Java.Abstract.AbstractClass.apresentacao.entities.SavingsAccount;
 
 import java.util.ArrayList;
 import java.util.List;

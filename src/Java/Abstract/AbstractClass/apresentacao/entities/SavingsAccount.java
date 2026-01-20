@@ -1,4 +1,4 @@
-package Java.AbstractClass.apresentacao.entities;
+package Java.Abstract.AbstractClass.apresentacao.entities;
 
 public class SavingsAccount extends Account {
     private Double interestRate;
