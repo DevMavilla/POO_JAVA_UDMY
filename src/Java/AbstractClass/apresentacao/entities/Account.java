@@ -1,4 +1,4 @@
-package Java.Heranca.apresentacao.entities;
+package Java.AbstractClass.apresentacao.entities;
 
 public abstract class Account {
     private int number;

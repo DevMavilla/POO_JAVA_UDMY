@@ -1,6 +1,8 @@
 package Java.Polimorfism.Introduction;
 
-public class OutSourcedEmployee extends OutSourcedEmployee.Employee {
+import Java.Polimorfism.Introduction.Employee;
+
+public class OutSourcedEmployee extends Employee {
 
     private Double aditionalCharge;
 
