@@ -30,20 +30,18 @@ public class Program {
 
         Client client = new Client(name, email, birthDate);
 
-
         System.out.println("Enter the order data: ");
         System.out.print("Status: ");
         OrderStatus status = OrderStatus.valueOf(sc.next());
 
         Order order = new Order(new Date(), status, client);
 
-
         System.out.print("How many items to this order? ");
         int n = sc.nextInt();
         sc.nextLine();
 
         for (int i = 0; i < n; i++) {
-            System.out.println("Enter #" + (i +1) + "item data: ");
+            System.out.println("Enter #" + (i + 1) + "item data: ");
 
             System.out.print("Product name: ");
             String productName = sc.nextLine();
@@ -64,5 +62,6 @@ public class Program {
         System.out.println();
         System.out.println(order);
 
+        sc.close();
     }
 }
