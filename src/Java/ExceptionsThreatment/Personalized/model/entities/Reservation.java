@@ -9,6 +9,12 @@ public class Reservation {
     private Date checkIn;
     private Date checkOut;
 
+    public Reservation(Integer roomNumber, Date checkIn, Date checkout) {
+        this.roomNumber = roomNumber;
+        this.checkIn = checkIn;
+        this.checkOut = checkout;
+    }
+
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
     public Integer getRoomNumber() {
@@ -27,11 +33,7 @@ public class Reservation {
         return checkOut;
     }
 
-    public Reservation(Integer roomNumber, Date checkIn, Date checkout) {
-        this.roomNumber = roomNumber;
-        this.checkIn = checkIn;
-        this.checkOut = checkout;
-    }
+    /*Methods*/
 
     public long duration() {
         long diff = checkOut.getTime() - checkIn.getTime();
